@@ -1,4 +1,6 @@
-package org.manu;
+package org.manu.config;
+
+import org.manu.ConfigSearchContext;
 
 import java.util.function.Function;
 

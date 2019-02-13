@@ -1,6 +1,7 @@
-package org.manu;
+package org.manu.config;
 
 import lombok.Data;
+import org.manu.ConfigSearchContext;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,1 +1,52 @@
-{"configDecision":"COUNTRY","configuration":{"companyName":"UST","companyUrl":"ust.co","phoneNumber":"1234","email":"ust@com"},"childNodes":{"IND":{"configDecision":"STATE","configuration":{"companyName":"UST-IND","companyUrl":"ust.in","phoneNumber":"1234","email":"ust@in"},"childNodes":{}}}}
+{
+  "configDecision": "COUNTRY",
+  "configuration": {
+    "companyName": "UST",
+    "companyUrl": "ust.co",
+    "phoneNumber": "+1 1234",
+    "email": "ust@com"
+  },
+  "childNodes": {
+    "India": {
+      "configDecision": "STATE",
+      "configuration": {
+        "companyName": "UST-India",
+        "companyUrl": "ust.in",
+        "phoneNumber": "+91 1234",
+        "email": "ust@in"
+      },
+      "childNodes": {
+        "Kerala": {
+          "configDecision": "UNDEFINED",
+          "configuration": {
+            "companyName": "UST-Kerala",
+            "companyUrl": null,
+            "phoneNumber": "+91 0481",
+            "email": null
+          },
+          "childNodes": {}
+        },
+        "Karnataka": {
+          "configDecision": "UNDEFINED",
+          "configuration": {
+            "companyName": "UST-Bangalore",
+            "companyUrl": null,
+            "phoneNumber": "+91 080123",
+            "email": null
+          },
+          "childNodes": {}
+        }
+      }
+    },
+    "Japan": {
+      "configDecision": "UNDEFINED",
+      "configuration": {
+        "companyName": "UST-Japan",
+        "companyUrl": "ust.jp",
+        "phoneNumber": "765443",
+        "email": "ust@jp"
+      },
+      "childNodes": {}
+    }
+  }
+}

@@ -17,10 +17,12 @@ childNodes:
         configDecision: "UNDEFINED"
         configuration:
           companyName: "UST-Kerala"
-          companyUrl: "ust.in"
           phoneNumber: "+91 0481"
-          email: "ust@in"
-        childNodes: {}
+      Karnataka:
+        configDecision: "UNDEFINED"
+        configuration:
+          companyName: "UST-Bangalore"
+          phoneNumber: "+91 080123"
   Japan:
     configDecision: "UNDEFINED"
     configuration:
@@ -28,4 +30,3 @@ childNodes:
       companyUrl: "ust.jp"
       phoneNumber: "765443"
       email: "ust@jp"
-    childNodes: {}

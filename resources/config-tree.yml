@@ -1,0 +1,31 @@
+configDecision: "COUNTRY"
+configuration:
+  companyName: "UST"
+  companyUrl: "ust.co"
+  phoneNumber: "+1 1234"
+  email: "ust@com"
+childNodes:
+  India:
+    configDecision: "STATE"
+    configuration:
+      companyName: "UST-India"
+      companyUrl: "ust.in"
+      phoneNumber: "+91 1234"
+      email: "ust@in"
+    childNodes:
+      Kerala:
+        configDecision: "UNDEFINED"
+        configuration:
+          companyName: "UST-Kerala"
+          companyUrl: "ust.in"
+          phoneNumber: "+91 0481"
+          email: "ust@in"
+        childNodes: {}
+  Japan:
+    configDecision: "UNDEFINED"
+    configuration:
+      companyName: "UST-Japan"
+      companyUrl: "ust.jp"
+      phoneNumber: "765443"
+      email: "ust@jp"
+    childNodes: {}

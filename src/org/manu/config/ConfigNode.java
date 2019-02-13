@@ -1,8 +1,9 @@
-package org.manu;
+package org.manu.config;
 
 import lombok.Data;
 import org.apache.commons.lang3.builder.MultilineRecursiveToStringStyle;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.manu.ConfigSearchContext;
 
 import java.util.HashMap;
 import java.util.Map;

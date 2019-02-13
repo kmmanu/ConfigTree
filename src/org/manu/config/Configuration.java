@@ -1,4 +1,4 @@
-package org.manu;
+package org.manu.config;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
